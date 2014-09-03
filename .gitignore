@@ -6,8 +6,9 @@
 
 # Ignore bundler config.
 /.bundle
+/config/database.yml
 
-# Ignore the default SQLite database.
+# Ignore the PostgreSQL database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
