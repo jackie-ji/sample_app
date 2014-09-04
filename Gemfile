@@ -6,6 +6,7 @@ gem 'launchy'
 gem 'rails', '4.1.5'
 gem 'bootstrap-sass','2.3.2.0'
 gem 'sprockets', '2.11.0'
+gem 'bcrypt-ruby', '3.1.2'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
  gem 'rspec-rails', '2.13.1'
@@ -39,7 +40,10 @@ group :production do
  gem 'rails_12factor', '0.0.2'
 end
 
+gem 'minitest'
+
 gem 'pg','0.17.1'
+gem 'pry-rails'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
