@@ -4,10 +4,13 @@ describe User do
 
   before do
     @user = User.new(name:"Example User", email:"user@example.com",
-            password: "foobar", password_confirmation: "foobar")
+            password: "foobar", password_confirmation: "foobar"  )
   end
 
   subject { @user }
+
+  puts "hoge"
+  puts @user.present?.to_s
 
   it { should respond_to(:name)}
   it { should respond_to(:email)}
